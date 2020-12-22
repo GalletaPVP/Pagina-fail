@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 07</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <nav class="separador">
+            <div class="contenido-logo">
+                <img src="img/Fondo.png" alt="Logo">
+            </div>
+            <div class="contendido-enlaces">
+                <a href="index.html">Inicio</a>
+                <a href="tarjetas.html">Tarjetas</a>
+                <a href="descuentos.html">Descuento</a>
+                <a href="contactenos.html">Contacto</a>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-5">
+                <form action="grabar.php" method="POST" class="needs-validation" novalidate>
+                    <div class="card mt-3">
+                        <div class="card-header bg-dark text-white text-center">
+                            <h3>Formulario de datos</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="ingrese-nombres" class="form-label">Ingrese sus nombres</label>
+                                <input type="text" id="ingrese-nombres" class="form-control" required>
+                                <div class="valid-feedback">
+                                    Datos correctos
+                                </div>
+                                <div class="invalid-feedback">
+                                    Falta ingresar su nombre
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="ingrese-apellidos" class="form-label">Ingrese sus apellidos</label>
+                                <input type="text" id="ingrese-apellidos" class="form-control" required>
+                                <div class="valid-feedback">
+                                    Datos correctos
+                                </div>
+                                <div class="invalid-feedback">
+                                    Falta ingresar su apellidos
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="ingrese-dni" class="form-label">Ingrese su DNI</label>
+                                <input type="text" id="ingrese-dni" class="form-control" required>
+                                <div class="valid-feedback">
+                                    Datos correctos
+                                </div>
+                                <div class="invalid-feedback">
+                                    Falta ingresar su DNI
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="ingrese-correo" class="form-label">Ingrese su correo</label>
+                                <input type="text" id="ingrese-correo" class="form-control" required>
+                                <div class="valid-feedback">
+                                    Datos correctos
+                                </div>
+                                <div class="invalid-feedback">
+                                    Falta ingresar su DNI
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <button type="submit" class="btn btn-primary" id="grabar">Enviar</button>
+                            <button type="reset" class="btn btn-danger" id="cancelar">Borrar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/algoritmo.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+#cargando {
+    display: none;
+}
+.color-negro{
+    background-color: black;
+}
+.contenido-logo img{
+    width: 450px;
+    height: 100px;
+}
+.estilo-precio{
+    margin-top: 10px;
+}
+.contendido-enlaces a{
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    margin-right: 20px;
+    font-size: 25px;
+    max-width: 1000px;
+}
